@@ -3,3 +3,6 @@ This repos is oh-my-zsh custom directory.($HOME/.oh-my-zsh/custom/)
 For exam, You make local repos.
 (Your oh-my-zsh's dir) % rm -r cutrom
 (Your oh-my-zsh's dir) % git submodule add https://github.com/nishigori/oh-my-zsh-custom custom
+
+If you make file for local dependency,
+file name is (local~xxxx.zsh).

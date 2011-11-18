@@ -1,4 +1,4 @@
-#homebrew & PHP pear
+#homebrew & PHP PEAR Packages
 export PATH="$(brew --prefix)/Cellar/php/5.3.8/bin:$(brew --prefix)/bin:$PATH"
 
 # MacVim Kaoriya
@@ -11,3 +11,10 @@ alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"
 alias ctag='ctags -R ./'
 alias ctags='ctags -R'
 
+# make vimperator xpi
+alias makevimp='cd /usr/local/src/vimperator-labs; make -e SED=gsed CP=gcp -C vimperator xpi; open /usr/local/src/vimperator-labs/downloads/'
+
+# source-highlight
+# % brew install source-highlight
+export LESS='-R'
+export LESSOPEN='| src-hilite-lesspipe.sh %s'

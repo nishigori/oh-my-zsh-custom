@@ -17,4 +17,4 @@ alias makevimp='cd /usr/local/src/vimperator-labs; make -e SED=gsed CP=gcp -C vi
 # source-highlight
 # % brew install source-highlight
 export LESS='-R'
-export LESSOPEN='| src-hilite-lesspipe.sh %s'
+export LESSOPEN='| $(brew --prefix)/bin/src-hilite-lesspipe.sh %s'

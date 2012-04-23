@@ -1,3 +1,6 @@
+# rvm
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
 #homebrew & PHP PEAR Packages
 export PATH="$(brew --prefix)/Cellar/php/5.3.8/bin:$(brew --prefix)/bin:$PATH"
 

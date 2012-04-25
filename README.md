@@ -4,7 +4,7 @@ oh-my-zsh-custom
   This repos is oh-my-zsh custom directory.($HOME/.oh-my-zsh/custom/)
 
 Install
-=======
+-------
 
   Please that commands
 
@@ -17,7 +17,7 @@ Install
 > $ git submodule add https://github.com/nishigori/oh-my-zsh-custom custom
 
 Ignore Files
-============
+------------
 
   If you make file but that's depends enviromment,
 

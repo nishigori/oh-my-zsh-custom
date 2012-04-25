@@ -23,5 +23,5 @@ alias vless='vim -R'
 alias gitlog='git log --graph --color --pretty="%x09%h %cn%x09%s %Cred%d"'
 
 # Selenium RC
-alias start_selenium='java -jar /usr/local/bin/selenium-server.jar'
+alias run_selenium='java -jar /usr/local/bin/selenium-server.jar'
 

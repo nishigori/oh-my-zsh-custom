@@ -25,10 +25,3 @@ for example,
     $ ls ./local
 
     alias.zsh   autojump.zsh
-
-Ignore Files
-------------
-
-If you make file but that's depends enviromment,
-
-puts the `custom/local` directory :p

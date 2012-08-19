@@ -14,6 +14,18 @@ Install
 
     $ git submodule add git@bitbucket.org:nishigori/oh-my-zsh-custom.git
 
+Local dependency
+----------------
+
+If you have local environment dependency and private settings,
+puts the local directory (*.zsh)
+
+for example,
+
+    $ ls ./local
+
+    alias.zsh   autojump.zsh
+
 Ignore Files
 ------------
 

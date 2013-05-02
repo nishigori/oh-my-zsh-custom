@@ -16,7 +16,3 @@ alias vi='vim'
 alias vimless='vim -R'
 alias vless='vim -R'
 
-# git
-#alias gitlog='git log --graph --all --color --pretty="%x09%h %cn%x09%s %Cred%d"'
-alias gitlog='git log --graph --color --pretty="%x09%h %cn%x09%s %Cred%d"'
-

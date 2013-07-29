@@ -5,7 +5,7 @@ alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"
 
 # ctags
 # ctag config file is .ctags
-alias ctags="`brew --prefix`/bin/ctags"
+alias ctags="/Applications/MacVim.app/Contents/MacOS/ctags"
 alias ctag='ctags -R ./'
 
 # make vimperator xpi

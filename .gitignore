@@ -1,1 +1,5 @@
 local/*
+os/another/*.zsh
+os/debian/*.zsh
+os/mac/*.zsh
+os/rhel/*.zsh

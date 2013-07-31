@@ -1,0 +1,2 @@
+# make vimperator xpi
+alias makevimp='cd /usr/local/src/vimperator-labs; make -e SED=gsed CP=gcp -C vimperator xpi; open /usr/local/src/vimperator-labs/downloads/'

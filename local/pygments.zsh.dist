@@ -3,7 +3,7 @@
 # Usage: pip install Pygments
 cmd=$(which pygmentize)
 if [ ${?} -eq 0 ]; then
-    alias pycat='pygmentize -O style=monokai -f console256 -g'
+    alias pycat='pygmentize -O style=rrt -f console256 -g'
     alias pyless="LESS='-R' LESSOPEN='|~/.oh-my-zsh/custom/local/pyless %s' less"
 fi
 

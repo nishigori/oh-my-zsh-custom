@@ -1,0 +1,3 @@
+# ENV VARIABLES
+export ANT_ARGS="-logger org.apache.tools.ant.listener.AnsiColorLogger"
+export ANT_OPTS="$ANT_OPTS -Dant.logger.defaults=$HOME/.oh-my-zsh/custom/local/.ant_logger_custom_rc"
